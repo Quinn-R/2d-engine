@@ -1,0 +1,3 @@
+Make movement and all other interactions in a different class that will import all the object types. The sfml class is still a seperate entity from this.
+
+I think that the character objects should have an inventory to make the mdifferent from the collide objects.
