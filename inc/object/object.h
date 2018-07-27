@@ -7,7 +7,8 @@ class object
 {
 private:
 
-    sf::FloatRect objectShape, objectPos;
+    sf::FloatRect objectShape;
+    sf::FloatRect objectPos;
     sf::Color objectColor;
     std::string objectSprite;
     bool isObjectGravityOn;
@@ -15,10 +16,10 @@ private:
 
 public:
 
-    void setObjectShape(FloatRect objectSz);
+    void setObjectShape(sf::FloatRect objectSz);
     sf::FloatRect getObjectShape();
 
-    void setObjectPos(FloatRect objectPs);
+    void setObjectPos(sf::FloatRect objectPs);
     sf::FloatRect getObjectPos();
 
     void setObjectColor(sf::Color objectClr);

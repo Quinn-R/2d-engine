@@ -1,2 +1,2 @@
 #include "../../inc/common.h"
-#include ".../../inc/object/collideObject.h"
+#include "../../inc/object/collideObject.h"

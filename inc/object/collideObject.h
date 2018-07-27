@@ -4,7 +4,7 @@
 #include "../common.h"
 #include "object.h"
 
-class collideObject : object
+class collideObject : public object
 {
 private:
 

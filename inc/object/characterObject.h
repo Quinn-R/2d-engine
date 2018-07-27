@@ -4,11 +4,11 @@
 #include "../common.h"
 #include "object.h"
 
-class characterObject : object
+class characterObject : public object
 {
 private:
 
-    int health, armour, stamina;
+    int characterHealth, characterArmour, characterStamina;
 
 public:
 

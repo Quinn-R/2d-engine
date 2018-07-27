@@ -10,7 +10,7 @@ sf::FloatRect object::getObjectShape()
     return objectShape;
 }
 
-void setObjectPos(sf::FloatRect objectPs)
+void object::setObjectPos(sf::FloatRect objectPs)
 {
     objectPos = objectPs;
 }
