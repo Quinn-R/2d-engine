@@ -1,11 +1,13 @@
-#ifndef HEADERFILE_H
-#define HEADERFILE_H
+#ifndef OBJECT_H
+#define OBJECT_H
+
+#include "common.h"
 
 class object
 {
 private:
 
-    sf::FloatRect objectSize, objectPos;
+    sf::FloatRect objectShape, objectPos;
     sf::Color objectColor;
     std::string objectSprite;
     bool isObjectGravityOn;
@@ -13,8 +15,8 @@ private:
 
 public:
 
-    void setObjectSize(FloatRect objectSz);
-    sf::FloatRect getObjectSize();
+    void setObjectShape(FloatRect objectSz);
+    sf::FloatRect getObjectShape();
 
     void setObjectPos(FloatRect objectPs);
     sf::FloatRect getObjectPos();

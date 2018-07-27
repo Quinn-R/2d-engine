@@ -1,13 +1,13 @@
 #include "../inc/common.h"
 #include "../inc/object.h"
 
-void object::setObjectSize(sf::FloatRect objectSz)
+void object::setObjectShape(sf::FloatRect objectSz)
 {
-    objectSize = objectSz;
+    objectShape = objectSz;
 }
-sf::FloatRect object::getObjectSize()
+sf::FloatRect object::getObjectShape()
 {
-    return objectSize;
+    return objectShape;
 }
 
 void setObjectPos(sf::FloatRect objectPs)
