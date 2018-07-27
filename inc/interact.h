@@ -14,10 +14,16 @@ private:
     sf::FloatRect rightBuffer;
     sf::FloatRect topBuffer;
     sf::FloatRect bottomBuffer;
+    
+    bool isTouchingLeft;
+    bool isTouchingRight;
+    bool isTouchingTop;
+    bool isTouchingBottom;
+    
+    std::vector<std::vector<characterObject> > vecChar;
+    std::vector<std::vector<collideObject> > vecCollide;
 
 public:
-    
-    interact();
     
     void setLeftBufferSize(sf::FloatRect leftBufferSz);
     sf::FloatRect getLeftBufferSize();
@@ -31,7 +37,11 @@ public:
     void setBottomBufferSize(sf::FloatRect bottomBufferSz);
     sf::FloatRect getLeftBufferSize();
     
-    void move(std::string direction, std::vector<std::vector<characterObject> > vecChar, std::vector<std::vector<collideObject> > vecCollide);
+    void move(std::string direction);
+    void checkCollide(std::string direction, int i, int j);
+    void setBufferSize(int i, int j);
+    void updateBuffer(int i, int j);
+
 
 };
 
