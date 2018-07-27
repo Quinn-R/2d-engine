@@ -1,7 +1,7 @@
 #ifndef CHARACTEROBJECT_H
 #define CHARACTEROBJECT_H
 
-#include "common.h"
+#include "../common.h"
 #include "object.h"
 
 class characterObject : object

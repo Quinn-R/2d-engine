@@ -1,5 +1,5 @@
-#include "../inc/common.h"
-#include "../inc/interact.h"
+#include "../../inc/common.h"
+#include "../../inc/interact/interact.h"
 
 interact::interact()
 {

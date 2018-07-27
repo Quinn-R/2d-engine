@@ -1,5 +1,5 @@
-#include "../inc/common.h"
-#include "../inc/object.h"
+#include "../../inc/common.h"
+#include "../../inc/object/object.h"
 
 void object::setObjectShape(sf::FloatRect objectSz)
 {

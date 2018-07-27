@@ -1,5 +1,5 @@
-#include "../inc/common.h"
-#include "../inc/characterObject.h"
+#include "../../inc/common.h"
+#include "../../inc/object/characterObject.h"
 
 void characterObject::setCharacterhealth(int characterHlth)
 {

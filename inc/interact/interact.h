@@ -1,10 +1,10 @@
 #ifndef INTERACT_H
 #define INTERACT_H
 
-#include "common.h"
-#include "object.h"
-#include "characterObject.h"
-#include "collideObject.h"
+#include "../common.h"
+#include "../object/object.h"
+#include "../object/characterObject.h"
+#include "../object/collideObject.h"
 
 class interact
 {
