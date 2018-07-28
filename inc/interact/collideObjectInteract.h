@@ -1,6 +1,18 @@
 #ifndef COLLIDEOBJECTINTERACT_H
 #define COLLIDEOBJECTINTERACT_H
 
-#include "interact.h"
+#include "classObjectInteract.h"
+
+class collideObjectInteract : public classObjectInteract
+{
+private:
+
+    
+
+public:
+    
+    
+
+};
 
 #endif

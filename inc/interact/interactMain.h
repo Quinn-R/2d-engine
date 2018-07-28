@@ -5,9 +5,8 @@
 #include "collideObjectInteract.h"
 #include "movementInteract.h"
 #include "classObjectInteract.h"
-#include "interact.h"
 
-class interactMain
+class interactMain : public collideObjectInteract, public movementInteract
 {
 private:
     

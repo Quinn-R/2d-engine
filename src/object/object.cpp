@@ -1,22 +1,31 @@
 #include "../../inc/common.h"
 #include "../../inc/object/object.h"
 
-void object::setObjectShape(sf::FloatRect objectSz)
+/*void object::setObjectShape(sf::RectangleShape objectSz)
 {
     objectShape = objectSz;
-}
-sf::FloatRect object::getObjectShape()
+}*/
+sf::RectangleShape object::getObjectShape()
 {
     return objectShape;
 }
 
-void object::setObjectPos(sf::FloatRect objectPs)
+void object::setObjectSize(sf::Vector2f objectSz)
 {
-    objectPos = objectPs;
+    objectShape.setSize(objectSz);
 }
-sf::FloatRect object::getObjectPos()
+sf::Vector2f object::getObjectSize()
 {
-    return objectPos;
+    return objectShape.getSize();
+}
+
+void object::setObjectPos(sf::Vector2f objectPs)
+{
+    objectShape.setPosition(objectPs);
+}
+sf::Vector2f object::getObjectPos()
+{
+    return objectShape.getPosition();
 }
 
 void object::setObjectColor(sf::Color objectClr)
